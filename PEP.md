@@ -66,7 +66,7 @@ db.define("Poses", {
     allowNull: false,
     validate: {
       notEmpty: true,
-      isIn: [['balance', 'core', 'inversion', 'standing', ,'hips opening', 'restorative', 'seated']]
+      isIn: [['balance', 'core', 'inversion', 'standing', 'hips opening', 'restorative', 'seated']]
     }
 });
 ```
